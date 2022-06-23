@@ -1,9 +1,9 @@
-import { Hero } from '../components/Hero/Hero'
+import Navcomponent from '../components/Layout/Navcomponent'
 
 export default function Home () {
   return (
     <div>
-      <Hero />
+      <Navcomponent />
     </div>
   )
 }
