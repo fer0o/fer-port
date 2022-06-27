@@ -1,4 +1,5 @@
 import HeroComponent from '../components/Hero/HeroComponent'
+import FooterComponent from '../components/Layout/FooterComponent'
 import Navcomponent from '../components/Layout/Navcomponent'
 
 export default function Home () {
@@ -6,6 +7,7 @@ export default function Home () {
     <div>
       <Navcomponent />
       <HeroComponent />
+      <FooterComponent />
     </div>
   )
 }
