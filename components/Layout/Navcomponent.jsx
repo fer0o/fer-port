@@ -17,15 +17,15 @@ const Navcomponent = () => {
               >
                 <path
                   strokeLinecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M4 6h16M4 12h8m-8 6h16"
                 />
               </svg>
             </label>
             <ul
-              tabIndex="0"
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              // tabindex="0"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 "
             >
               <li>
                 <Link href="/about">
