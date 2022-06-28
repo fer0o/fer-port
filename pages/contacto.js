@@ -1,7 +1,12 @@
 import React from 'react'
+import Navcomponent from '../components/Layout/Navcomponent'
 
 const contacto = () => {
-  return <div>contacto</div>
+  return (
+    <div>
+      <Navcomponent />
+    </div>
+  )
 }
 
 export default contacto
