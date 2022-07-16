@@ -32,6 +32,11 @@ const Navcomponent = () => {
                   <a>Acerca de</a>
                 </Link>
               </li>
+              <li>
+                <Link href="/cv">
+                  <a>CV</a>
+                </Link>
+              </li>
 
               <li>
                 <Link href="/skills">
@@ -57,6 +62,13 @@ const Navcomponent = () => {
               <Link href="/about">
                 <a className="btn btn-ghost normal-case text-xl hover:underline">
                   Acerca de
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/cv">
+                <a className="btn btn-ghost normal-case text-xl hover:underline">
+                  CV
                 </a>
               </Link>
             </li>
