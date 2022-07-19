@@ -45,7 +45,7 @@ const InfoAbout = ({ image }) => {
             {/* imagen */}
 
           </div>
-          <div className=' drop-shadow shadow-white flex justify-center  w-full h-48 lg:w-96 lg:h-full'>
+          <div className=' drop-shadow shadow-white flex justify-center  w-full h-48 lg:w-96 lg:h-full m-auto '>
               <Image layout='fill' src={image} />
             </div>
         </div>
