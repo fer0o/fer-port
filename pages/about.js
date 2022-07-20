@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { Card } from '../components/Info/Card'
 import InfoAbout from '../components/Info/InfoAbout'
 import FooterComponent from '../components/Layout/FooterComponent'
@@ -13,7 +12,7 @@ const about = () => {
       </div>
 
       {/* segundo grid */}
-      <div className='grid lg:grid-cols-3 grid-cols-1 lg:gap-2 gap-5 border border-white m-8'>
+      <div className='grid lg:grid-cols-3 grid-cols-1 lg:gap-4 gap-4 m-8'>
         {/* card animestation */}
         <Card
           title='Anime Station'

@@ -7,7 +7,7 @@ export const Card = ({ title, description, image ,link }) => {
     <div>
       {/* card con grid */}
 
-      <div className='   bg-base-100 shadow-xl border border-white '>
+      <div className='   bg-base-100 shadow-xl border border-white lg:m-8 lg:p-2 p-8'>
         <div className=' drop-shadow shadow-white  w-full h-48 lg:w-full lg:h-96 '>
           <Image layout='fill' src={image} />
         </div>
